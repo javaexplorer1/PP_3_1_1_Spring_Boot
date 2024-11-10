@@ -1,0 +1,65 @@
+table {
+    border-collapse: collapse;
+    width: 850px;
+    table-layout: fixed;
+}
+
+th {
+    background: #fc0;
+}
+
+td {
+    background: #fff;
+    word-break: break-all;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+    width: 200px;
+    white-space: normal;
+}
+
+th:first-child, td:first-child {
+    width: 30px !important;
+}
+
+.button {
+    display: inline-block;
+    width: 50px;
+    height: 15px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.delete {
+    background: tomato;
+}
+
+.add_user {
+    background: limegreen;
+    width: 150px;
+    text-decoration: none;
+}
+
+form {
+    width: 250px;
+}
+
+label {
+    width: 80px;
+    padding-right: 20px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+input {
+    margin-bottom: 10px;
+}
